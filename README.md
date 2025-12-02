@@ -22,22 +22,3 @@ After cleaning, these become:
 - `transaction_id`, `date`, `customer_id`, `gender`, `age`,
   `product_category`, `quantity`, `price_per_unit`, `total_amount`
 
-##  Project Structure
-
-```text
-Retail_Sales_Analytics/
-├── data/
-│   ├── raw/
-│   │   └── retail_sales_dataset.csv
-│   └── processed/
-│       └── sales_clean.csv
-├── notebooks/
-│   └── 01_exploratory_analysis.ipynb
-├── src/
-│   ├── clean_data.py
-│   ├── analyze_kpis.py
-│   └── dashboard_app.py
-├── reports/
-│   └── insights.md
-├── requirements.txt
-└── README.md
